@@ -21,7 +21,7 @@ Tipos de Parametros:
     Request Body: Corpo da requisição, utilizado para criar ou alterar recursos.
 */
 
-app.psot ('/users', (request, response) => {
+app.post ('/users', (request, response) => {
     const body = request.body;
 
     console.log(body);
