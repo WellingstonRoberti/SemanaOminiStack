@@ -59,7 +59,7 @@ export default function Incidents(){
                 style={styles.incidentList}
                 keyExtractor={ incident => String(incident.id)}
                 showsVerticalScrollIndicator={false}
-                onEndReached={loadIncidents}
+                onEndReached={loadIncidents} 
                 onEndReachedThreshold={0.2}
                 data={incidents}
                 renderItem={({ item: incident }) => (
